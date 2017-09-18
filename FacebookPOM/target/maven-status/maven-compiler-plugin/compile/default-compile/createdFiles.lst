@@ -1,0 +1,11 @@
+com\way2automation\twitter\pages\twitLandingPage.class
+com\way2automation\twitter\core\testCore.class
+com\way2automation\twitter\utils\excel_reader.class
+com\way2automation\twitter\testcases\LoginTest.class
+com\way2automation\twitter\pages\twitEditProfile.class
+com\way2automation\twitter\pages\twitLoginPage.class
+ErrorCollectors\ErrorCollector.class
+com\way2automation\twitter\config\Configuration.class
+com\way2automation\twitter\pages\twitMyProfile.class
+com\way2automation\twitter\utils\Utility.class
+ErrorCollectors\TestListenerAdapter.class
