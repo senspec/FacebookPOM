@@ -1,65 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.724" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="64.551" tests="2" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
-    <property name="java.vm.version" value="25.121-b13"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User\git\LocalFacebokPOM\FacebookPOM"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\User\git\LocalFacebokPOM\FacebookPOM"/>
-    <property name="java.runtime.version" value="1.8.0_121-b13"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="E:\GitWebDriverMaven\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6233753904182862432.tmp"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_121\bin; %MAVEN_HOME%/bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;E:\eclipse-java-neon-2-win32-x86_64\eclipse;;."/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\User"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="User"/>
-    <property name="java.class.path" value="/E:/eclipse-java-neon-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.1.20150625-2337/jars/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_121"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\User\git\LocalFacebokPOM\FacebookPOM\EMBEDDED"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JOB_NAME" value="FBPOM"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\User\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3861f1b2f77164e1"/>
+    <property name="POM_ARTIFACTID" value="FacebookPOM"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Maven Quick Start Archetype"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\User\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="User"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FBPOM"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FBPOM/11/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#11"/>
+    <property name="OneDrive" value="C:\Users\User\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\User\AppData\Local"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="User"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="D:\Udemy\apache-maven-3.5.0\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FBPOM/11/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\User\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FBPOM/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-84BCDDP"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_121"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\User"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DESKTOP-84BCDDP"/>
+    <property name="GOOGLE_API_KEY" value="no"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_SECRET" value="no"/>
+    <property name="POM_GROUPID" value="FacebookPOM"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FBPOM-11"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3861f1b2f77164e1"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\User"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Udemy\apache-maven-3.5.0/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files\Java\jdk1.8.0_121\bin; %MAVEN_HOME%/bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\User\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="D:\Udemy\apache-maven-3.5.0"/>
+    <property name="java.class.path" value="C:\Users\User\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.11.jar;D:\Udemy\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;D:\Udemy\apache-maven-3.5.0/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\Udemy\apache-maven-3.5.0 C:\Users\User\.jenkins\war\WEB-INF\lib\remoting-3.12.jar C:\Users\User\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Users\User\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 54984"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files\Java\jdk1.8.0_121\bin; %MAVEN_HOME%/bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_121/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="D:\Udemy\apache-maven-3.5.0"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\User\.jenkins"/>
+    <property name="PATH+MAVEN" value="D:\Udemy\apache-maven-3.5.0/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FBPOM/11/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="MAVEN_OPTS" value="-Xmx200m -XX:MaxPermSize=128m"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\User\git\LocalFacebokPOM\FacebookPOM"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FBPOM/"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_ID" value="no"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-84BCDDP"/>
+    <property name="USERDOMAIN" value="DESKTOP-84BCDDP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="D:\Udemy\apache-maven-3.5.0"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="11"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\User"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\User\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar"/>
+    <property name="WORKSPACE" value="C:\Users\User\.jenkins\workspace\FBPOM"/>
+    <property name="maven3.interceptor.common" value="C:\Users\User\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase name="sampleTest" classname="com.way2automation.twitter.testcases.LoginTest" time="33.107"/>
+  <testcase name="sampleTest" classname="com.way2automation.twitter.testcases.LoginTest" time="42.744">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: .//*[@id=&apos;page-container&apos;]/div[1]/div[1]/div/div[1]/div/a (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;DESKTOP-84BCDDP&apos;, ip: &apos;192.168.1.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0, platformVersion=10.0, moz:processID=3068, browserName=firefox, platformName=windows_nt}]&#10;Session ID: 330caaf4-9d5b-436a-8d6a-cb6d3713dab4" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: .//*[@id='page-container']/div[1]/div[1]/div/div[1]/div/a (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-84BCDDP', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0, platformVersion=10.0, moz:processID=3068, browserName=firefox, platformName=windows_nt}]
+Session ID: 330caaf4-9d5b-436a-8d6a-cb6d3713dab4
+	at com.way2automation.twitter.testcases.LoginTest.sampleTest(LoginTest.java:71)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='page-container']/div[1]/div[1]/div/div[1]/div/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-84BCDDP', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0, platformVersion=10.0, moz:processID=3068, browserName=firefox, platformName=windows_nt}]
+Session ID: 330caaf4-9d5b-436a-8d6a-cb6d3713dab4
+*** Element info: {Using=xpath, value=.//*[@id='page-container']/div[1]/div[1]/div/div[1]/div/a}
+	at com.way2automation.twitter.testcases.LoginTest.sampleTest(LoginTest.java:71)
+</failure>
+    <system-out><![CDATA[Senthil Start
+Excel Path:com.way2automation.twitter.utils.excel_reader@1f9e9475
+Before Test Execution started
+Username from Sheet is:
+Username from Sheet:MohanSenthil228
+Senthil Start Login/Landing
+End of Login Page
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'log4j2.debug' to show Log4j2 internal initialization logging.
+1505746573037	geckodriver	INFO	Listening on 127.0.0.1:11790
+Sep 18, 2017 8:26:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+1505746578930	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v
+1505746579430	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1505746579449	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54999
+1505746580466	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1505746580469	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1505746580474	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1505746580476	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1505746580478	addons.manager	DEBUG	Starting provider: XPIProvider
+1505746580478	addons.xpi	DEBUG	startup
+1505746580481	addons.xpi	INFO	Mapping firebug@software.joehewitt.com to C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v\extensions\firebug@software.joehewitt.com.xpi
+1505746580482	addons.xpi	INFO	Mapping FireXPath@pierre.tholence.com to C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v\extensions\FireXPath@pierre.tholence.com.xpi
+1505746580484	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1505746580485	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1505746580486	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1505746580490	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1505746580498	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1505746580500	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1505746580502	addons.xpi	DEBUG	checkForChanges
+1505746580503	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1505746580504	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"firebug@software.joehewitt.com":{"d":"C:\\Users\\User\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\Senthil\\extensions\\firebug@software.joehewitt.com.xpi","e":true,"v":"2.0.17","st":1489456354153},"FireXPath@pierre.tholence.com":{"d":"C:\\Users\\User\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\Senthil\\extensions\\FireXPath@pierre.tholence.com.xpi","e":true,"v":"0.9.7.1.1-signed.1-signed","st":1489371543276}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","e":true,"v":"2.0","st":1489234292735},"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","e":true,"v":"1.9","st":1489234292734},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","e":true,"v":"1.0.5","st":1489234292732},"webcompat@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","e":true,"v":"1.0","st":1489234292727}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"52.0","st":1489234292736}},"winreg-app-global":{"light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com":{"d":"C:\\Program Files (x86)\\Kaspersky Lab\\Kaspersky Total Security 17.0.0\\FFExt\\light_plugin_firefox\\addon.xpi","e":true,"v":"5.0.141-12-20170704091344","st":1500908719199}}}
+1505746580506	addons.xpi	DEBUG	getModTime: Recursive scan of firebug@software.joehewitt.com
+1505746580507	addons.xpi	DEBUG	Changed add-on firebug@software.joehewitt.com in app-profile
+1505746580509	addons.xpi	DEBUG	getModTime: Recursive scan of FireXPath@pierre.tholence.com
+1505746580511	addons.xpi	DEBUG	Changed add-on FireXPath@pierre.tholence.com in app-profile
+1505746580513	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1505746580514	addons.xpi	DEBUG	Changed add-on aushelper@mozilla.org in app-system-defaults
+1505746580514	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1505746580515	addons.xpi	DEBUG	Changed add-on e10srollout@mozilla.org in app-system-defaults
+1505746580515	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1505746580516	addons.xpi	DEBUG	Changed add-on firefox@getpocket.com in app-system-defaults
+1505746580517	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1505746580517	addons.xpi	DEBUG	Changed add-on webcompat@mozilla.org in app-system-defaults
+1505746580518	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1505746580519	addons.xpi	DEBUG	Changed add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1505746580520	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"firebug@software.joehewitt.com":{"d":"C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile.uuvAku4JVD8v\\extensions\\firebug@software.joehewitt.com.xpi","e":true,"v":"2.0.17","st":1505746579065},"FireXPath@pierre.tholence.com":{"d":"C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile.uuvAku4JVD8v\\extensions\\FireXPath@pierre.tholence.com.xpi","e":true,"v":"0.9.7.1.1-signed.1-signed","st":1505746579066}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","e":true,"v":"2.0","st":1489234292735},"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","e":true,"v":"1.9","st":1489234292734},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","e":true,"v":"1.0.5","st":1489234292732},"webcompat@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","e":true,"v":"1.0","st":1489234292727}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","e":true,"v":"52.0","st":1489234292736}}}
+1505746580536	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v\extensions.json
+1505746580549	addons.xpi-utils	DEBUG	Successfully read XPI database
+1505746580553	addons.xpi-utils	DEBUG	Add-on FireXPath@pierre.tholence.com modified in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1505746580592	addons.xpi	DEBUG	Add-on firebug@software.joehewitt.com blocks e10s rollout.
+1505746580592	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580594	addons.xpi	DEBUG	Add-on firebug@software.joehewitt.com blocks e10s rollout.
+1505746580594	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580594	addons.xpi-utils	DEBUG	Add-on firebug@software.joehewitt.com modified in app-profile
+1505746580601	DeferredSave.extensions.json	DEBUG	Starting timer
+1505746580624	DeferredSave.extensions.json	DEBUG	Starting write
+1505746580677	DeferredSave.extensions.json	DEBUG	Write succeeded
+1505746580677	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1505746580747	addons.xpi	DEBUG	Add-on light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com blocks e10s rollout.
+1505746580747	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580747	addons.xpi	DEBUG	Add-on light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com blocks e10s rollout.
+1505746580748	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580749	addons.xpi-utils	DEBUG	Add-on light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com removed from winreg-app-global
+1505746580750	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580752	addons.manager	DEBUG	Registering startup change 'changed' for FireXPath@pierre.tholence.com
+1505746580752	addons.xpi-utils	DEBUG	Make addon app-profile:FireXPath@pierre.tholence.com visible
+1505746580753	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580753	addons.manager	DEBUG	Registering startup change 'changed' for firebug@software.joehewitt.com
+1505746580764	addons.xpi	DEBUG	Loading bootstrap scope from C:\Users\User\AppData\Roaming\Mozilla\Firefox\Profiles\Senthil\extensions\firebug@software.joehewitt.com.xpi
+1505746580784	addons.xpi	DEBUG	Calling bootstrap method uninstall on firebug@software.joehewitt.com version 2.0.17
+1505746580829	addons.xpi	DEBUG	Loading bootstrap scope from C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v\extensions\firebug@software.joehewitt.com.xpi
+1505746580833	addons.xpi	DEBUG	Calling bootstrap method install on firebug@software.joehewitt.com version 2.0.17
+1505746580833	addons.xpi-utils	DEBUG	Make addon app-profile:firebug@software.joehewitt.com visible
+1505746580834	addons.xpi	DEBUG	Add-on firebug@software.joehewitt.com blocks e10s rollout.
+1505746580834	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580834	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1505746580835	addons.xpi	DEBUG	Add-on firebug@software.joehewitt.com blocks e10s rollout.
+1505746580835	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580836	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1505746580837	addons.xpi	DEBUG	Add-on firebug@software.joehewitt.com blocks e10s rollout.
+1505746580837	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580837	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1505746580838	addons.xpi	DEBUG	Add-on firebug@software.joehewitt.com blocks e10s rollout.
+1505746580838	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580838	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1505746580839	addons.xpi	DEBUG	Add-on firebug@software.joehewitt.com blocks e10s rollout.
+1505746580839	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580840	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1505746580840	addons.xpi	DEBUG	Add-on firebug@software.joehewitt.com blocks e10s rollout.
+1505746580840	DeferredSave.extensions.json	DEBUG	Save changes
+1505746580841	addons.xpi	ERROR	Failed to process extension changes at startup: TypeError: aAddon._installLocation is undefined (resource://gre/modules/addons/XPIProvider.jsm:728:1) JS Stack trace: canRunInSafeMode@XPIProvider.jsm:728:1 < this.XPIProvider.callBootstrapMethod@XPIProvider.jsm:4885:76 < processFileChanges@XPIProviderUtils.js:2212:9 < this.XPIProvider.checkForChanges@XPIProvider.jsm:3826:34 < this.XPIProvider.startup@XPIProvider.jsm:2830:25 < callProvider@AddonManager.jsm:237:12 < _startProvider@AddonManager.jsm:790:5 < AddonManagerInternal.startup@AddonManager.jsm:976:9 < this.AddonManagerPrivate.startup@AddonManager.jsm:3033:5 < amManager.prototype.observe@addonManager.js:65:9
+1505746580842	addons.xpi	DEBUG	No changes found
+1505746580845	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1505746580847	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1505746580852	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1505746580854	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1505746580856	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1505746580859	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+1505746580859	addons.xpi	DEBUG	Registering manifest for C:\Users\User\AppData\Local\Temp\rust_mozprofile.uuvAku4JVD8v\extensions\firebug@software.joehewitt.com.xpi
+1505746580861	addons.xpi	DEBUG	Calling bootstrap method startup on firebug@software.joehewitt.com version 2.0.17
+1505746580872	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1505746580874	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1505746580878	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1505746580879	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1505746580880	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1505746580883	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1505746580885	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1505746580885	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1505746580885	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1505746580885	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1505746580886	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1505746580886	addons.manager	DEBUG	Starting provider: GMPProvider
+1505746580901	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1505746580902	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1505746580903	addons.manager	DEBUG	Starting provider: PluginProvider
+1505746580903	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1505746580903	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1505746580904	addons.manager	DEBUG	Completed startup sequence
+1505746581170	Marionette	INFO	Listening on port 54999
+1505746581304	DeferredSave.extensions.json	DEBUG	Starting timer
+1505746581317	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1505746581317	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1505746581317	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1505746581340	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1505746581340	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1505746581340	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1505746581365	DeferredSave.extensions.json	DEBUG	Starting write
+1505746581414	DeferredSave.extensions.json	DEBUG	Write succeeded
+Sep 18, 2017 8:26:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1505746589838	Marionette	WARN	Using deprecated data structure for setting timeouts
+]]></system-err>
+  </testcase>
   <testcase name="testQuitDriver" classname="com.way2automation.twitter.testcases.LoginTest" time="0"/>
 </testsuite>

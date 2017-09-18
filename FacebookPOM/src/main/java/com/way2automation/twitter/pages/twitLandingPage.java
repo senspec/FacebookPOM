@@ -42,8 +42,8 @@ public class twitLandingPage {
 		
 		//new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(profile));
 		//Thread.sleep(60000);
-		Thread.sleep(6000);
-		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='page-container']/div[1]/div[1]/div/div[1]/div/a")));
+		//Thread.sleep(6000);
+		new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='page-container']/div[1]/div[1]/div/div[1]/div/a")));
 		
 		
 		
