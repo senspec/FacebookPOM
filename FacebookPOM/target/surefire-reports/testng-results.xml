@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31457" started-at="2017-09-18T11:04:27Z" finished-at="2017-09-18T11:04:59Z">
+  <suite name="Suite" duration-ms="31267" started-at="2017-09-18T11:09:14Z" finished-at="2017-09-18T11:09:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31457" started-at="2017-09-18T11:04:27Z" finished-at="2017-09-18T11:04:59Z">
+    <test name="Test" duration-ms="31267" started-at="2017-09-18T11:09:14Z" finished-at="2017-09-18T11:09:45Z">
       <class name="com.way2automation.twitter.testcases.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@66ad7bf0]" name="init" is-config="true" duration-ms="19628" started-at="2017-09-18T16:34:08Z" finished-at="2017-09-18T16:34:27Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@506dcf55]" name="init" is-config="true" duration-ms="17100" started-at="2017-09-18T16:38:57Z" finished-at="2017-09-18T16:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="checkRunMode()[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@66ad7bf0]" name="checkRunMode" is-config="true" duration-ms="8" started-at="2017-09-18T16:34:27Z" finished-at="2017-09-18T16:34:27Z">
+        <test-method status="PASS" signature="checkRunMode()[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@506dcf55]" name="checkRunMode" is-config="true" duration-ms="11" started-at="2017-09-18T16:39:14Z" finished-at="2017-09-18T16:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRunMode -->
-        <test-method status="PASS" signature="sampleTest(java.lang.String, java.lang.String)[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@66ad7bf0]" name="sampleTest" duration-ms="31435" started-at="2017-09-18T16:34:27Z" data-provider="getData" finished-at="2017-09-18T16:34:59Z">
+        <test-method status="PASS" signature="sampleTest(java.lang.String, java.lang.String)[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@506dcf55]" name="sampleTest" duration-ms="31241" started-at="2017-09-18T16:39:14Z" data-provider="getData" finished-at="2017-09-18T16:39:45Z">
           <params>
             <param index="0">
               <value>
@@ -31,11 +31,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="PASS" signature="testQuitDriver()[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@66ad7bf0]" name="testQuitDriver" duration-ms="0" started-at="2017-09-18T16:34:59Z" finished-at="2017-09-18T16:34:59Z">
+        <test-method status="PASS" signature="testQuitDriver()[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@506dcf55]" name="testQuitDriver" duration-ms="0" started-at="2017-09-18T16:39:45Z" finished-at="2017-09-18T16:39:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuitDriver -->
-        <test-method status="PASS" signature="testQuitDriver()[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@66ad7bf0]" name="testQuitDriver" is-config="true" duration-ms="0" started-at="2017-09-18T16:34:59Z" finished-at="2017-09-18T16:34:59Z">
+        <test-method status="PASS" signature="testQuitDriver()[pri:0, instance:com.way2automation.twitter.testcases.LoginTest@506dcf55]" name="testQuitDriver" is-config="true" duration-ms="0" started-at="2017-09-18T16:39:45Z" finished-at="2017-09-18T16:39:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuitDriver -->
