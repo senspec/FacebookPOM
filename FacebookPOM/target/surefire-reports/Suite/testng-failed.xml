@@ -6,9 +6,8 @@
       <class name="com.way2automation.twitter.testcases.LoginTest">
         <methods>
           <include name="testQuitDriver"/>
-          <include name="testQuitDriver"/>
           <include name="init"/>
-          <include name="sampleTest"/>
+          <include name="sampleTest" invocation-numbers="0"/>
           <include name="checkRunMode"/>
         </methods>
       </class> <!-- com.way2automation.twitter.testcases.LoginTest -->

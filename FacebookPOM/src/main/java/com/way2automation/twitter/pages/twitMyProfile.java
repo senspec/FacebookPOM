@@ -37,7 +37,7 @@ public class twitMyProfile {
 		//System.out.println("Senthil_Profile");
 		
 		Thread.sleep(6000);
-		new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='page-container']/div[3]/div/div[2]/div[2]/div/div[2]/div/div/ul/li[8]/div/button")));
+		//new WebDriverWait(driver, 120).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='page-container']/div[3]/div/div[2]/div[2]/div/div[2]/div/div/ul/li[8]/div/button")));
 		
 		editbutton.click();
 		
