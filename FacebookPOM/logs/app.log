@@ -1,0 +1,16 @@
+15:26:33.930 DEBUG core.testCore -Config property file loaded
+15:26:33.935 DEBUG core.testCore -Object property file loaded
+15:26:34.786 DEBUG core.testCore -Excel file loaded
+15:26:53.867 DEBUG core.testCore -Firefox driver initialized
+15:28:22.734 DEBUG core.testCore -Config property file loaded
+15:28:22.737 DEBUG core.testCore -Object property file loaded
+15:28:23.314 DEBUG core.testCore -Excel file loaded
+15:28:35.785 DEBUG core.testCore -Firefox driver initialized
+15:29:23.443 DEBUG core.testCore -Config property file loaded
+15:29:23.445 DEBUG core.testCore -Object property file loaded
+15:29:24.704 DEBUG core.testCore -Excel file loaded
+15:29:35.956 DEBUG core.testCore -Firefox driver initialized
+15:30:49.778 DEBUG core.testCore -Config property file loaded
+15:30:49.780 DEBUG core.testCore -Object property file loaded
+15:30:50.156 DEBUG core.testCore -Excel file loaded
+15:31:06.778 DEBUG core.testCore -Firefox driver initialized
